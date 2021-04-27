@@ -1,0 +1,2467 @@
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400
+}
+
+.montserrat {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    -webkit-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s
+}
+
+#main {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.section {
+    padding: 0
+}
+
+.lines {
+    width: 100%;
+    position: absolute;
+    top: 1400px;
+    z-index: 2
+}
+
+.lines img {
+    width: 100%;
+    opacity: .3
+}
+
+.burgerMenu .modal-content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_menu.png);
+    background-size: cover;
+    border: none;
+    border-radius: 0
+}
+
+.burgerMenu .modal-header {
+    border: none;
+    padding: 0
+}
+
+.burgerMenu .burger,
+.burgerMenu .burgers {
+    width: 28px;
+    height: 28px
+}
+
+.burgerMenu .burger div:first-child,
+.burgerMenu .burgers div:first-child {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: 13px
+}
+
+.burgerMenu .burger .burgerLast,
+.burgerMenu .burgers .burgerLast {
+    margin-top: 0 !important;
+    width: 28px !important;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 11px
+}
+
+.fade {
+    -webkit-transition: opacity .75s linear;
+    -o-transition: opacity .75s linear;
+    transition: opacity .75s linear
+}
+
+#main {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.conteiner {
+    width: 1376px;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.how_we_work .conteiner,
+.our_digital .conteiner,
+.our_tech .conteiner,
+.what_we_do .conteiner,
+.who_we_work .conteiner {
+    padding-top: 244px
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 0;
+    z-index: 22;
+    background: #241766
+}
+
+.nav .conteiner {
+    z-index: 20
+}
+
+.collapsible-header .rotateFour,
+.collapsible-header .rotateOne,
+.collapsible-header .rotateThree,
+.collapsible-header .rotateTwo {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.collapsible-header .statusFour,
+.collapsible-header .statusOne,
+.collapsible-header .statusThree,
+.collapsible-header .statusTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.collapsible-header .statusFour div,
+.collapsible-header .statusOne div,
+.collapsible-header .statusThree div,
+.collapsible-header .statusTwo div {
+    width: 17px;
+    height: 1px;
+    background-color: #000
+}
+
+.collapsible-header .rotateFour div,
+.collapsible-header .rotateOne div,
+.collapsible-header .rotateThree div,
+.collapsible-header .rotateTwo div {
+    background-color: #6351b2
+}
+
+.collapsible-header .darkStatus div {
+    background-color: #fff
+}
+
+.collapsible-header .statusFour div:first-child,
+.collapsible-header .statusOne div:first-child,
+.collapsible-header .statusThree div:first-child,
+.collapsible-header .statusTwo div:first-child {
+    position: absolute
+}
+
+.collapsible-header .rotateFour div:first-child,
+.collapsible-header .rotateOne div:first-child,
+.collapsible-header .rotateThree div:first-child,
+.collapsible-header .rotateTwo div:first-child {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.collapsible-header .statusFour div:last-child,
+.collapsible-header .statusOne div:last-child,
+.collapsible-header .statusThree div:last-child,
+.collapsible-header .statusTwo div:last-child {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative
+}
+
+.navigation {
+    width: 1376px;
+    position: fixed;
+    padding: 16px 0 4px 0;
+    border-bottom: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1060;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.blackColor:first-child {
+    border-bottom: 1px solid #000
+}
+
+.whiteColor:first-child {
+    border-bottom: 1px solid #fff
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.navigation a:hover {
+    color: #d3d8ff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.navigation .burger,
+.navigation .burgers {
+    margin-right: 30px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.navigation .burger:hover div,
+.navigation .burgers:hover div {
+    background-color: #d3d8ff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.navigation .burger div,
+.navigation .burgers div {
+    background-color: #fff;
+    height: 2px;
+    width: 28px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.blackColor .burger div,
+.blackColor .burgers div {
+    background-color: #000
+}
+
+.blackColor .burgers div,
+.whiteColor .burger div {
+    background-color: #fff
+}
+
+.navigation .burger div:nth-child(2),
+.navigation .burgers div:nth-child(2) {
+    margin-top: 5px;
+    width: 22px
+}
+
+.navigation .burger div:last-child,
+.navigation .burgers div:last-child {
+    margin-top: 5px;
+    width: 16px
+}
+
+.navLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.burgerDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.modal .modal-content {
+    padding: 0
+}
+
+.modal .navigation {
+    padding: 14px 0 5px 0
+}
+
+.collapsible-header {
+    width: 564px;
+    background-color: transparent !important;
+    border-bottom: none !important;
+    font-weight: 500 !important;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin: 20px 0 5px 0;
+    outline: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.collapsible-body {
+    border-bottom: none !important;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 16px 0 30px 23px
+}
+
+.how_we_work .collapsible,
+.how_we_work .collapsible-header,
+.our_tech .collapsible,
+.our_tech .collapsible-header {
+    color: #fff !important
+}
+
+.collapsible {
+    border: none !important;
+    margin: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding-right: 13% !important
+}
+
+.modal {
+    top: 0 !important;
+    max-height: 100%;
+    height: 100%;
+    width: 100%
+}
+
+.modal-fullscreen {
+    height: 100%
+}
+
+.links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-transform: capitalize
+}
+
+.links a:hover {
+    font-weight: 700;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.links .next,
+.links .prev {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    width: 190px;
+    margin-right: 52px
+}
+
+.links .prev span {
+    width: 100%
+}
+
+.links .next span {
+    width: 100%
+}
+
+.blackColor a {
+    color: #000 !important
+}
+
+.blackColor a .bgFill {
+    fill: #000
+}
+
+.whiteColor a {
+    color: #fff !important
+}
+
+.header h1 {
+    color: #fff;
+    font-weight: 700 !important;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    margin: 0;
+    padding-top: 290px
+}
+
+.header h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    padding: 0 8%
+}
+
+.circle {
+    position: absolute;
+    top: 79%;
+    left: 44%;
+    z-index: 1;
+    width: 248px;
+    height: 202px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.circle .ellipse {
+    position: absolute
+}
+
+.circle img {
+    position: relative;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s
+}
+
+.modal-body .modalNav {
+    width: 900px;
+    margin: 134px auto 0 auto !important;
+    padding: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.modalNav .collapsible-header {
+    width: 100%
+}
+
+.modalNav .collapsible-body {
+    border-bottom: none !important;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    padding: 0 0 0 70px
+}
+
+.modal-body .modalNav .collapsible-body li {
+    margin-bottom: 0 !important
+}
+
+.modal-body .modalNav .collapsible-body li a {
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    line-height: 40px
+}
+
+@-webkit-keyframes move_eye {
+    from {
+        -webkit-transform: translateY(+200%);
+        transform: translateY(+200%)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes move_eye {
+    from {
+        -webkit-transform: translateY(+200%);
+        transform: translateY(+200%)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.modal-body .modalNav li {
+    width: 100%
+}
+
+.modal-body .modalNav li a {
+    text-align: left;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.modal-body ul li a:hover {
+    font-weight: 700;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.section {
+    width: 100%;
+    height: 100vh
+}
+
+.what_we_do {
+    background-image: url(../img/bg_what_we_do.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.how_we_work {
+    background-image: url(../img/bg_how_we_work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.who_we_work {
+    background-image: url(../img/bg_who_we_work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.our_tech {
+    background-image: url(../img/bg_our_tech.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.our_tech .conteiner {
+    padding-top: 144px
+}
+
+.our_digital {
+    background-image: url(../img/bg_our_digital.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.lets_make {
+    background-image: url(../img/bg_lets_make.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.section .conteiner {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.header .conteiner {
+    display: block
+}
+
+.description {
+    width: 50%
+}
+
+.list {
+    width: 49%;
+    margin-top: 111px;
+    margin-left: 132px
+}
+
+.description .head {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.description .head span {
+    font-weight: 700 !important;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000;
+    position: relative;
+    z-index: +1;
+    margin-right: 10px;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px)
+}
+
+.description p {
+    margin-top: 74px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000
+}
+
+.how_we_work .description .head span,
+.how_we_work .description p,
+.lets_make .description p,
+.lets_make .description span,
+.our_tech .description .head span,
+.our_tech .description p {
+    color: #fff
+}
+
+.description .head .animateCircle {
+    position: absolute;
+    left: -90px;
+    top: -40px;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s
+}
+
+.accordion-button:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.list .accordion-button,
+.list h5 {
+    font-weight: 500 !important;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin: 10px 0;
+    outline: 0
+}
+
+.list .accordion-button:first-child {
+    margin-top: 0
+}
+
+.how_we_work .list .accordion-button,
+.our_tech .list .accordion-button {
+    color: #fff;
+    text-align: left;
+    padding-right: 130px
+}
+
+.list ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 0
+}
+
+.list p,
+.list ul li a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #606060
+}
+
+.list p {
+    color: #000;
+    margin-left: 23px
+}
+
+.how_we_work .accordion-body,
+.our_tech .accordion-body {
+    color: #fff
+}
+
+.how_we_work .list ul li a,
+.our_tech .list ul li a .accordion-collapse {
+    border: none
+}
+
+.accordion-collapse {
+    border: none
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/minus.svg);
+    background-position: center
+}
+
+.accordion-button::after {
+    background-image: url(../img/plus.svg);
+    background-position: center
+}
+
+.how_we_work .accordion-button:not(.collapsed)::after,
+.lets_make .accordion-button:not(.collapsed)::after,
+.our_tech .accordion-button:not(.collapsed)::after {
+    background-image: url(../img/minus_w.svg);
+    position: absolute;
+    right: 0
+}
+
+.how_we_work .accordion-button::after,
+.lets_make .accordion-button::after,
+.our_tech .accordion-button::after {
+    background-image: url(../img/plus_w.svg);
+    position: absolute;
+    right: 0
+}
+
+.lets_make {
+    position: relative;
+    height: 100%
+}
+
+.lets_make .conteiner {
+    height: auto;
+    padding-top: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.lets_make .conteiner .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.footer .conteiner {
+    padding-bottom: 0
+}
+
+.lets_make .description .head p b {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px
+}
+
+.lets_make .description p {
+    margin-top: 69px
+}
+
+.lets_make .description .marg {
+    margin-top: 34px
+}
+
+.lets_make .description {
+    width: 70%
+}
+
+.lets_make .list {
+    margin-top: 0
+}
+
+.lets_make .list h4 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 0
+}
+
+.lets_make .list form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.lets_make .list form #select,
+.lets_make .list form .captcha,
+.lets_make .list form button,
+.lets_make .list form input,
+.lets_make .list form textarea {
+    margin-top: 17px;
+    outline: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000
+}
+
+.lets_make .list form input:first-child {
+    margin-top: 0
+}
+
+.lets_make .list form input::-webkit-input-placeholder,
+.lets_make .list form textarea::-webkit-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-moz-placeholder,
+.lets_make .list form textarea::-moz-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input:-ms-input-placeholder,
+.lets_make .list form textarea:-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-ms-input-placeholder,
+.lets_make .list form textarea::-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-webkit-input-placeholder,
+.lets_make .list form textarea::-webkit-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-moz-placeholder,
+.lets_make .list form textarea::-moz-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input:-ms-input-placeholder,
+.lets_make .list form textarea:-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-ms-input-placeholder,
+.lets_make .list form textarea::-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-webkit-input-placeholder,
+.lets_make .list form textarea::-webkit-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-moz-placeholder,
+.lets_make .list form textarea::-moz-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input:-ms-input-placeholder,
+.lets_make .list form textarea:-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-ms-input-placeholder,
+.lets_make .list form textarea::-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-webkit-input-placeholder,
+.lets_make .list form textarea::-webkit-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-moz-placeholder,
+.lets_make .list form textarea::-moz-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input:-ms-input-placeholder,
+.lets_make .list form textarea:-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::-ms-input-placeholder,
+.lets_make .list form textarea::-ms-input-placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form input::placeholder,
+.lets_make .list form textarea::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9
+}
+
+.lets_make .list form #select input,
+.lets_make .list form #select label {
+    display: block
+}
+
+.lets_make .list form #select {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form #select input {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px
+}
+
+.lets_make .list form #select label {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form #select .check {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.transition_arrow {
+    width: 74px;
+    height: 74px;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #590072;
+    opacity: .6;
+    border-radius: 100%;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: fixed;
+    right: 82px;
+    bottom: 182px;
+    z-index: 12
+}
+
+.transition_arrow:hover {
+    opacity: 1;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+input[type=checkbox] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0
+}
+
+input[type=checkbox]+label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+input[type=checkbox]+label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6a83a9;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%
+}
+
+input[type=checkbox]:checked+label::before {
+    background-image: url(../img/point.svg);
+    background-size: 110%;
+    background-position: bottom;
+    border: 1px solid #08234b
+}
+
+input[type=checkbox]:checked+label {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #000 !important
+}
+
+.lets_make .list form #select .placeholderSelect {
+    width: 100%;
+    height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a83a9;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form #select .bigSelect {
+    display: none
+}
+
+.lets_make .list form #select .placeholderSelect img {
+    padding-right: 13px
+}
+
+.lets_make .list form #select,
+.lets_make .list form input {
+    width: 519px;
+    height: 42px;
+    background: #f9f9f9;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: none;
+    padding-left: 22px
+}
+
+.lets_make .list form #select {
+    width: 541px
+}
+
+.lets_make .list form textarea {
+    width: 541px;
+    height: 182px;
+    background: #f9f9f9;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding-left: 22px;
+    resize: none
+}
+
+.lets_make .list form .captcha {
+    width: 228px;
+    height: 67px;
+    background: #f9f9f9;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px
+}
+
+.lets_make .list form .disabled {
+    position: relative;
+    background: #666771;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form .disabled:hover {
+    background: #666771
+}
+
+.lets_make .list form .disabled .placeholderBtn {
+    position: absolute;
+    bottom: 9px;
+    left: 265px;
+    width: 121%;
+    font-size: 20px;
+    line-height: 26px;
+    color: #d76b6b;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    opacity: 0
+}
+
+.lets_make .list form .disabled:hover .placeholderBtn {
+    opacity: 1;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form button {
+    width: 228px;
+    height: 44px;
+    background: #4a54e8;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.lets_make .list form button:hover {
+    background: #303cf9;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.footer,
+footer {
+    margin-top: 82px;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.footer .conteiner,
+footer .conteiner {
+    padding-top: 0
+}
+
+.footer span,
+footer span {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff !important;
+    padding-top: 19px
+}
+
+.slick-slider {
+    height: 100vh
+}
+
+.slick-list {
+    height: 100%
+}
+
+.slick-track {
+    height: 100%
+}
+
+#modal2 .navigation,
+#modal3 .navigation,
+#modal4 .navigation,
+#modal5 .navigation,
+#modal6 .navigation,
+#modal7 .navigation {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-bottom: none;
+    width: 85%
+}
+
+#modal2 .navigation a:first-child {
+    display: none
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100%
+}
+
+.slick-next,
+.slick-prev {
+    z-index: 50
+}
+
+.slick-prev:before {
+    content: '<'
+}
+
+.slick-next:before {
+    content: '>'
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 60px
+}
+
+.slick-prev {
+    left: 25px
+}
+
+.slick-next {
+    right: 25px
+}
+
+.tab-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.tab-content>.tab-pane {
+    display: block !important;
+    height: 0
+}
+
+.tab-content>.active {
+    display: block !important;
+    height: auto
+}
+
+@media screen and (max-width:1681px) {
+    .lets_make .conteiner {
+        padding-top: 135px
+    }
+
+    .collapsible-body {
+        line-height: 30px
+    }
+}
+
+@media screen and (max-width:1601px) {
+    .header h1 {
+        font-size: 60px;
+        line-height: 75px;
+        padding-top: 220px
+    }
+
+    .header h2 {
+        font-size: 40px;
+        line-height: 51px
+    }
+
+    .circle {
+        top: 80%;
+        width: 198px;
+        height: 152px
+    }
+
+    .circle .ellipse {
+        width: 100%
+    }
+
+    .circle img {
+        width: 10%
+    }
+
+    .how_we_work .conteiner,
+    .our_digital .conteiner,
+    .our_tech .conteiner,
+    .what_we_do .conteiner,
+    .who_we_work .conteiner {
+        padding-top: 144px
+    }
+
+    .description p {
+        margin-top: 54px;
+        font-size: 30px;
+        line-height: 50px
+    }
+
+    .list {
+        margin-top: 0
+    }
+
+    .transition_arrow {
+        width: 54px;
+        height: 54px;
+        bottom: 82px
+    }
+
+    .collapsible-header {
+        font-size: 28px;
+        line-height: 33px
+    }
+
+    .list p,
+    .list ul li a {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .collapsible-body {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .list .accordion-button,
+    .list h5 {
+        font-size: 28px;
+        line-height: 33px
+    }
+
+    .description p {
+        font-size: 28px;
+        line-height: 40px
+    }
+
+    .lets_make .conteiner {
+        padding-top: 105px
+    }
+
+    .lets_make .list h4 {
+        font-size: 38px;
+        line-height: 50px
+    }
+
+    .lets_make .list form textarea {
+        height: 100px
+    }
+
+    .footer,
+    footer {
+        margin-top: 60px
+    }
+
+    .modal-body .modalNav li a {
+        font-size: 34px;
+        line-height: 54px
+    }
+}
+
+@media screen and (max-width:1441px) {
+    .description {
+        width: 40%;
+        padding-left: 5%
+    }
+
+    .description .head .animateCircle {
+        width: 20%;
+        left: -40px
+    }
+
+    .list {
+        margin-top: 0
+    }
+}
+
+@media screen and (max-width:1401px) {
+    .circle {
+        top: 83%
+    }
+}
+
+@media screen and (max-width:1367px) {
+    .navigation {
+        width: 1200px
+    }
+
+    .conteiner {
+        width: 1200px
+    }
+
+    .header h1 {
+        font-size: 52px;
+        line-height: 63px;
+        padding-top: 170px
+    }
+
+    .header h2 {
+        font-size: 36px;
+        line-height: 45px
+    }
+
+    .navigation a {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .links a {
+        font-size: 16px;
+        line-height: 21px
+    }
+
+    .circle {
+        width: 148px;
+        height: 121px
+    }
+
+    .collapsible-header {
+        font-size: 22px;
+        line-height: 27px
+    }
+
+    .list p,
+    .list ul li a {
+        font-size: 18px;
+        line-height: 28px
+    }
+
+    .collapsible-body {
+        padding: 6px 0 10px 23px;
+        font-size: 18px;
+        line-height: 28px
+    }
+
+    .description .head span {
+        font-size: 26px;
+        line-height: 33px
+    }
+
+    .description p {
+        font-size: 22px;
+        line-height: 34px
+    }
+
+    .description .head img:nth-child(2) {
+        width: 10%
+    }
+
+    .lets_make .list h4 {
+        font-size: 26px;
+        line-height: 38px
+    }
+
+    .lets_make .list form #select,
+    .lets_make .list form input {
+        height: 30px
+    }
+
+    .lets_make .list form #select .placeholderSelect {
+        width: 100%;
+        height: 30px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form input::placeholder,
+    .lets_make .list form textarea::placeholder {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form #select .placeholderSelect {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form #select label {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form button {
+        width: 170px;
+        height: 35px
+    }
+
+    .lets_make .list form #select,
+    .lets_make .list form .captcha,
+    .lets_make .list form button,
+    .lets_make .list form input,
+    .lets_make .list form textarea {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list form .captcha {
+        width: 170px;
+        height: 50px
+    }
+
+    .modal-body .modalNav li a {
+        font-size: 28px;
+        line-height: 40px
+    }
+
+    .modal-body .modalNav {
+        margin: 90px auto 0 auto !important
+    }
+
+    .modal-body .modalNav .collapsible-body li a {
+        font-size: 20px;
+        line-height: 20px
+    }
+
+    .collapsible-header {
+        margin: 10px 0 5px 0
+    }
+
+    .lets_make .list form .disabled .placeholderBtn {
+        left: 165px;
+        width: 150%;
+        font-size: 16px;
+        line-height: 20px
+    }
+}
+
+@media (max-height:1025px) and (max-width:1281px) {
+    .circle {
+        top: 87%
+    }
+
+    .collapsible-header .statusFour div,
+    .collapsible-header .statusOne div,
+    .collapsible-header .statusThree div,
+    .collapsible-header .statusTwo div {
+        width: 10px
+    }
+}
+
+@media (max-height:601px) and (max-width:1281px) {
+    .header h1 {
+        font-size: 42px;
+        line-height: 53px;
+        padding-top: 120px
+    }
+
+    .header h2 {
+        font-size: 26px;
+        line-height: 35px;
+        margin: 0
+    }
+
+    .circle {
+        top: 76%
+    }
+
+    .collapsible-body {
+        padding: 6px 0 10px 23px;
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .lets_make .list form #select,
+    .lets_make .list form .captcha,
+    .lets_make .list form button,
+    .lets_make .list form input,
+    .lets_make .list form textarea {
+        margin-top: 10px
+    }
+
+    .lets_make .list form input {
+        margin-bottom: 0
+    }
+
+    .lets_make .description p {
+        margin-top: 40px
+    }
+}
+
+@media screen and (max-width:1153px) {
+    .navigation {
+        width: 783px
+    }
+
+    .conteiner {
+        width: 783px
+    }
+
+    .links .next,
+    .links .prev {
+        margin-right: 0
+    }
+
+    .header h1 {
+        font-size: 46px;
+        line-height: 53px;
+        padding-top: 190px
+    }
+
+    .header h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0;
+        padding: 0
+    }
+
+    .description .head .animateCircle {
+        top: -28px;
+        width: 78px
+    }
+
+    .description .head span {
+        font-size: 22px;
+        line-height: 28px
+    }
+
+    .description p {
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 28px
+    }
+
+    .collapsible-header {
+        width: 400px;
+        font-size: 18px;
+        line-height: 22px
+    }
+
+    .list p,
+    .list ul li a {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .collapsible-body {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .list {
+        margin-left: 0
+    }
+
+    .lets_make .list h4 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .lets_make .list form #select,
+    .lets_make .list form .captcha,
+    .lets_make .list form button,
+    .lets_make .list form input,
+    .lets_make .list form textarea {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%
+    }
+
+    .lets_make .list form input {
+        width: 93%
+    }
+
+    .lets_make .list form .captcha,
+    .lets_make .list form button {
+        width: 120px
+    }
+
+    .lets_make .list form .disabled .placeholderBtn {
+        left: 120px;
+        width: 150%;
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .footer span,
+    footer span {
+        font-size: 14px;
+        line-height: 24px
+    }
+}
+
+@media screen and (max-width:801px) {
+    .navigation {
+        width: 760px
+    }
+
+    .conteiner {
+        width: 760px
+    }
+
+    .modal-body .modalNav {
+        margin: 90px auto 0 60px !important
+    }
+
+    .modal-body .modalNav li a {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .modal-body .modalNav .collapsible-body li a {
+        font-size: 14px;
+        line-height: 17px
+    }
+
+    .modalNav .collapsible-body {
+        font-size: 4px;
+        line-height: 24px
+    }
+
+    .burgerMenu .burger .burgerLast,
+    .burgerMenu .burgers .burgerLast {
+        width: 14px !important
+    }
+
+    .navigation .burger div,
+    .navigation .burgers div {
+        width: 14px
+    }
+
+    .header h1 {
+        font-size: 36px;
+        line-height: 53px;
+        padding-top: 90px
+    }
+
+    .header h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .circle {
+        top: 83%;
+        width: 110px;
+        height: 90px
+    }
+
+    .transition_arrow {
+        width: 25px;
+        height: 25px
+    }
+
+    .transition_arrow img {
+        width: 35%
+    }
+
+    .collapsible-header {
+        width: 350px;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 5px 0 5px 0
+    }
+
+    .list p,
+    .list ul li a {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .collapsible-body {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 6px 0 10px 10px
+    }
+
+    .list .accordion-button,
+    .list h5 {
+        font-size: 18px;
+        line-height: 22px
+    }
+
+    .description {
+        width: 42%
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .nav {
+        position: fixed;
+        left: 1%;
+        width: 98%
+    }
+
+    .conteiner {
+        width: 98%;
+        margin: auto 1%
+    }
+
+    .navigation {
+        width: 96%
+    }
+
+    .section {
+        height: 50vh
+    }
+
+    .lets_make {
+        height: 100%
+    }
+
+    .lets_make .conteiner .content {
+        width: 90%
+    }
+
+    .circle {
+        top: 42%
+    }
+}
+
+@media screen and (max-width:769px) {
+    .lets_make .conteiner .content {
+        width: 98%
+    }
+}
+
+@media screen and (max-width:415px) {
+    .section {
+        height: 100vh
+    }
+
+    .lets_make {
+        height: 100%
+    }
+
+    .how_we_work .conteiner,
+    .our_digital .conteiner,
+    .our_tech .conteiner,
+    .what_we_do .conteiner,
+    .who_we_work .conteiner {
+        padding-top: 15%
+    }
+
+    .section .conteiner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .lets_make .conteiner .content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+
+    .navigation a {
+        font-size: 18px;
+        line-height: 20px
+    }
+
+    .navigation #turnOff {
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .links .next,
+    .links .prev {
+        width: 120px
+    }
+
+    .circle {
+        top: 88%;
+        left: 39%
+    }
+
+    .header h1 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-top: 50%
+    }
+
+    .header h2 {
+        font-size: 21px;
+        line-height: 26px
+    }
+
+    .description {
+        width: 85%;
+        margin: 0 auto;
+        padding: 0
+    }
+
+    .description .head .animateCircle {
+        left: -30px
+    }
+
+    .collapsible-header {
+        width: 100%
+    }
+
+    .list {
+        width: 85%;
+        margin: 0 auto
+    }
+
+    .transition_arrow {
+        right: 30px;
+        bottom: 30px
+    }
+
+    .lets_make .description p {
+        margin-top: 25px
+    }
+
+    .lets_make .description .marg {
+        margin: 2% 0
+    }
+
+    .lets_make .list form .disabled .placeholderBtn {
+        left: 15px;
+        bottom: -25px;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content
+    }
+
+    .modal-body .modalNav li a {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .modal-body .modalNav .collapsible-body li a {
+        font-size: 12px;
+        line-height: 15px
+    }
+
+    .modalNav .collapsible-header {
+        width: 300px
+    }
+
+    .modal-body .modalNav {
+        width: 300px;
+        margin: 90px auto 0 10px !important
+    }
+}
+
+@media screen and (max-width:376px) {
+
+    .navigation .burger,
+    .navigation .burgers {
+        margin-right: 10px
+    }
+
+    .links .next,
+    .links .prev {
+        width: 110px
+    }
+}
+
+@media screen and (max-width:321px) {
+    .navigation a {
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .navigation #turnOff {
+        font-size: 10px;
+        line-height: 12px
+    }
+
+    .links .next,
+    .links .prev {
+        width: 85px
+    }
+
+    .navigation .burger,
+    .navigation .burgers {
+        margin-right: 10px
+    }
+
+    .navigation .burger div:nth-child(2),
+    .navigation .burgers div:nth-child(2) {
+        margin-top: 3px;
+        width: 11px
+    }
+
+    .navigation .burger div:last-child,
+    .navigation .burgers div:last-child {
+        margin-top: 3px;
+        width: 8px
+    }
+
+    .header h1 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .header h2 {
+        font-size: 19px;
+        line-height: 24px
+    }
+
+    .circle {
+        left: 35%
+    }
+
+    .description .head .animateCircle {
+        left: -20px;
+        width: 60px
+    }
+
+    .description .head span {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .description p {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .collapsible-header {
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .list p,
+    .list ul li a {
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .collapsible-body {
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .description .head span {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .lets_make .list h4 {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-webkit-input-placeholder,
+    .lets_make .list form textarea::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-moz-placeholder,
+    .lets_make .list form textarea::-moz-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input:-ms-input-placeholder,
+    .lets_make .list form textarea:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::-ms-input-placeholder,
+    .lets_make .list form textarea::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form input::placeholder,
+    .lets_make .list form textarea::placeholder {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form #select .placeholderSelect {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .lets_make .list form #select label {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    .footer,
+    footer {
+        margin-top: 30px
+    }
+}

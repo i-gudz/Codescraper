@@ -1,0 +1,35 @@
+.contact_us {
+    height: 100vh
+}
+
+.lines_contact {
+    top: 0
+}
+
+.lines_contact img {
+    width: 49%
+}
+
+.contact_us .conteiner {
+    padding-top: 165px
+}
+
+.contact_us .list {
+    margin-top: 26px
+}
+
+.contact_us .description .head span {
+    font-weight: 400 !important;
+    font-size: 80px;
+    line-height: 94px
+}
+
+.contact_us .description p {
+    margin-top: 30px
+}
+
+.description p {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff
+}

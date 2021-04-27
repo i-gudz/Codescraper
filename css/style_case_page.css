@@ -1,0 +1,270 @@
+header {
+    width: 100%;
+    height: 905px;
+    background-image: url(../img/bg_case_page_header.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.conteiner {
+    display: block
+}
+
+header .links {
+    padding-top: 91px
+}
+
+.content {
+    padding-top: 340px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+header .circle {
+    margin: 117px auto 0 auto
+}
+
+.logo {
+    width: 100%;
+    height: 226px;
+    background-color: #fff
+}
+
+.logo .conteiner {
+    padding-top: 0;
+    height: 100%;
+    display: block
+}
+
+.map_links {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.map_links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #adadad;
+    margin-right: 9px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.map_links a:hover {
+    color: #000;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.map_links .active {
+    color: #000
+}
+
+.map_links a img {
+    margin-left: 8px
+}
+
+.logo h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000;
+    margin-top: 43px;
+    text-align: left
+}
+
+.logo_documents {
+    width: 100%;
+    background-image: url(../img/logo_documents.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.logo_documentSecond {
+    width: 100%;
+    background-image: url(../img/logo_documentSecond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.logo_office {
+    width: 100%;
+    background-image: url(../img/logo_office.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.logo_office {
+    width: 100%;
+    background-image: url(../img/logo_office.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.view_site {
+    width: 100%;
+    height: 1008px;
+    background-image: url(../img/wiew_site.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.view_site .conteiner {
+    padding-top: 0;
+    height: 100%;
+    display: block;
+    position: relative
+}
+
+.view_site h2 {
+    padding-top: 67px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center
+}
+
+.view_site .button_view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 47px;
+    width: 100%
+}
+
+.view_site .button_view button {
+    width: 448px;
+    height: 46px;
+    background: #0e2474;
+    border: none;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.view_site .button_view button:hover {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    background: #fff;
+    color: #0e2474
+}
+
+.view_site .button_view button:last-child {
+    width: 216px
+}
+
+.main_links {
+    width: 100%;
+    height: 156px;
+    background-color: #fff
+}
+
+.main_links .conteiner {
+    padding-top: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.main_links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.main_links a:hover span {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    font-weight: 700
+}
+
+.main_links .next span {
+    margin-right: 14px
+}
+
+.main_links .prev span {
+    margin-left: 14px
+}
+
+.logo_documentSecond img,
+.logo_documents img,
+.logo_office img {
+    width: 100%
+}
+
+header .circle {
+    top: 120%
+}

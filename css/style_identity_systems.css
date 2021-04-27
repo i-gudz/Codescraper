@@ -1,0 +1,43 @@
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[6];
+    grid-template-columns: repeat(6, 1fr);
+    -webkit-transform: rotate(90deg) translateY(-100vh);
+    -ms-transform: rotate(90deg) translateY(-100vh);
+    transform: rotate(90deg) translateY(-100vh);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+.catalogs p,
+.identity p,
+.logotype p,
+.package p {
+    width: 363px;
+    font-size: 23px;
+    line-height: 27px;
+    padding-left: 100px;
+    padding-right: 0
+}
+
+.logotype .desc img {
+    margin-left: 96px;
+    margin-top: 39px
+}
+
+.identity .desc img {
+    margin-left: 184px;
+    margin-top: 39px
+}
+
+.package .desc img {
+    margin-left: 99px;
+    margin-top: 39px
+}
+
+.catalogs .desc img {
+    margin-left: 131px;
+    margin-top: 39px
+}

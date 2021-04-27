@@ -1,0 +1,308 @@
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    -webkit-transform: rotate(270deg) translateX(-100%);
+    -ms-transform: rotate(270deg) translateX(-100%);
+    transform: rotate(270deg) translateX(-100%);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    height: 100vw;
+    width: 100vh
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0
+}
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[6];
+    grid-template-columns: repeat(6, 1fr);
+    -webkit-transform: rotate(90deg) translateY(-100vh);
+    -ms-transform: rotate(90deg) translateY(-100vh);
+    transform: rotate(90deg) translateY(-100vh);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+.conteiner {
+    display: block
+}
+
+.header h1 {
+    padding-top: 185px
+}
+
+.page {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 90px;
+    width: 654px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/background_page.png);
+    -webkit-box-shadow: inset -10px 0 15px rgba(126, 74, 191, .1);
+    box-shadow: inset -10px 0 15px rgba(126, 74, 191, .1);
+    opacity: 1;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.header {
+    opacity: 1;
+    width: 1084px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0 0 0 272px;
+    background: #f8f8ff;
+    -webkit-box-shadow: inset -10px 0 15px rgba(126, 74, 191, .1);
+    box-shadow: inset -10px 0 15px rgba(126, 74, 191, .1)
+}
+
+.header .links {
+    padding-top: 94px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s
+}
+
+.header .links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px
+}
+
+.header .links .next,
+.header .links .prev {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.header .links .prev span {
+    margin-left: 20px
+}
+
+.header .links .next span {
+    margin-right: 20px
+}
+
+.header h1 {
+    color: #000;
+    font-weight: 700 !important;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: left
+}
+
+.header h2 {
+    color: #000;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: start;
+    margin-top: 10px;
+    padding: 0 10% 0 0
+}
+
+.navigation {
+    border-bottom: 1px solid #000
+}
+
+.navigation a {
+    color: #000
+}
+
+.navigation .burger div {
+    background-color: #000
+}
+
+.page .conteiner {
+    margin-top: 108px
+}
+
+.page h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.page .hoverImg {
+    display: none;
+    margin: 40px auto;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.page p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+    padding-left: 51px;
+    padding-right: 23px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.page .mgt {
+    margin-top: 80px;
+    margin-bottom: 30px
+}
+
+.page .more_b {
+    margin-top: 25px
+}
+
+.page .mgb {
+    margin-bottom: 170px
+}
+
+.page a {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #43e8ff
+}
+
+.page .lin_a {
+    margin-bottom: 85px
+}
+
+.page .arrow {
+    float: right
+}
+
+.lets_make {
+    width: 1920px;
+    background: #0b0b0b;
+    -webkit-box-shadow: inset 15px 0 20px rgba(29, 18, 81, .15);
+    box-shadow: inset 15px 0 20px rgba(29, 18, 81, .15);
+    padding: 0
+}
+
+.lets_make .conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 272px 0 155px;
+    width: 100%;
+    height: 100%;
+    padding-top: 119px
+}
+
+.lets_make .conteiner .description {
+    margin-top: 60px
+}
+
+.lets_make p {
+    padding-left: 0;
+    font-size: 50px;
+    line-height: 61px;
+    color: #fff
+}
+
+.lets_make .marg {
+    font-size: 40px;
+    line-height: 60px
+}
+
+.list {
+    margin-left: 175px
+}
+
+.content {
+    display: none
+}
+
+.hoverContent {
+    display: block
+}
+
+.hoverContent .desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.hoverContent .desc .text {
+    margin-top: 108px;
+    margin-left: 100px;
+    width: 50%;
+    margin-right: 20px
+}
+
+.hoverContent .desc .text .mgt {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.hoverContent .desc .text .lin_a {
+    margin-top: 148px;
+    margin-bottom: 109px
+}
+
+.hoverContent .arrow {
+    float: left
+}
+
+.naming .desc img {
+    margin-left: 55px;
+    margin-top: 42px
+}

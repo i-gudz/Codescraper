@@ -1,0 +1,141 @@
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    -webkit-transform: rotate(90deg) translateY(-100vh);
+    -ms-transform: rotate(90deg) translateY(-100vh);
+    transform: rotate(90deg) translateY(-100vh);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+.page {
+    width: 1372px
+}
+
+.lets_make {
+    width: 1920px
+}
+
+.header {
+    width: 1084px
+}
+
+.header h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 37px;
+    padding: 0 5% 0 0
+}
+
+.header button {
+    margin: 121px 124px 0 66%;
+    width: 153px;
+    height: 35px;
+    background: #353434;
+    border-radius: 21.5px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: right;
+    margin-top: 121px
+}
+
+.page h3 {
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff
+}
+
+.infographics p,
+.naming p {
+    width: 363px;
+    font-size: 23px;
+    line-height: 27px;
+    padding-left: 100px;
+    padding-right: 0
+}
+
+.infographics {
+    background-image: url(../img/background_brand_systems_01.jpg);
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.infographics:hover {
+    background-image: url(../img/background_page.png);
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.naming {
+    background-image: url(../img/background_brand_systems_02.jpg);
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.naming:hover {
+    background-image: url(../img/background_page.png);
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+
+.page {
+    position: relative
+}
+
+.imgHover {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    display: none
+}
+
+.page .lin_a {
+    margin-top: 35%
+}
+
+.modal .navigation {
+    border-bottom: 1px solid #fff
+}
+
+.modal .navigation a {
+    color: #fff
+}
+
+.modal .navigation .burger div {
+    background-color: #fff
+}
+
+.header h1 {
+    padding-top: 155px
+}
+
+.links {
+    padding-top: 91px
+}
+
+.links a {
+    color: #000
+}
+
+.navigation:before {
+    border-bottom: 1px solid #fff
+}

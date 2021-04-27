@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_case_page.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="conteiner ">
+            <div class="navigation mainNav">
+                <a href="#" class="bebas">codescraper</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+            </div>
+            <div class="links montserrat">
+                <a href="#" class="prev">
+                    <img src="img/arrow_white_l.svg" alt="arrow">
+                    <span>Portfolio</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="conteiner">
+
+
+
+            <div class="content">
+                <img src="img/content_case_page_header.png" alt="">
+            </div>
+
+
+            <div class="circle">
+                <img src="img/mouse_down.svg" id="mouseDown" alt="mouse">
+            </div>
+        </div>
+    </header>
+
+
+    <section class="logo">
+        <div class="conteiner">
+            <div class="map_links">
+                <a href="#" class="roboto">Home <img src="img/arrow_map_links.svg" alt=""> </a>
+                <a href="#" class="roboto">Design Support <img src="img/arrow_map_links.svg" alt=""></a>
+                <a href="#" class="roboto">Portfolio <img src="img/arrow_map_links.svg" alt=""></a>
+                <a href="#" class="active roboto">Logo for Diamond City</a>
+            </div>
+
+            <h1 class="montserrat">Logo for DIAMOND CITY business center</h1>
+        </div>
+    </section>
+
+    <section class="logo_documents">
+        <img src="img/logo_documents.png" alt="">
+    </section>
+
+    <section class="logo_documentSecond">
+        <img src="img/logo_documentSecond.png" alt="">
+    </section>
+
+    <section class="logo_office">
+        <img src="img/logo_office.png" alt="">
+    </section>
+
+    <section class="view_site">
+        <div class="conteiner">
+            <h2 class="montserrat">
+                View the site for the diamond city
+            </h2>
+            <div class="button_view">
+                <button class="montserrat">Live view</button>
+                <button class="montserrat">Case view</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main_links">
+        <div class="conteiner">
+            <a href="#" class="prev">
+                <img src="img/arrow_black_l.svg" alt="arrow">
+                <span class="montserrat">Previous project</span>
+            </a>
+            <a href="#">
+                <span class="montserrat">All projects</span>
+            </a>
+            <a href="#" class="next">
+                <span class="montserrat">Next project</span>
+                <img src="img/arrow_black_r_case.svg" alt="arrow">
+            </a>
+        </div>
+    </section>
+
+    <section class="lets_make" id="whiteColor">
+        <div class="conteiner">
+            <div class="description">
+                <div class="head">
+                    <span class="montserrat">Let’s make something great!</span>
+                    <img src="img/arrow_white_r.svg" alt="">
+                    <img src="img/lets_make_circle.svg" class="animateCircle" alt="">
+                </div>
+                <p class="montserrat"><b>
+                    Let’s talk about your project.
+                </b></p>
+                <p class="montserrat marg">
+                    Give us a call or stop by our door anytime.
+                </p>
+                <p class="montserrat marg">
+                    We try to answer all enquiries within 24 hours on business days.
+                </p>
+            </div>
+            <div class="list">
+                <h4 class="montserrat">Make Enquiry</h4>
+                <form action="">
+                    <input type="text" onkeyup="checkParams()" id="name" placeholder="Your Name*" required>
+                    <input type="text" onkeyup="checkParams()" id="email" placeholder="Email Address*" required>
+                    <input type="text" placeholder="Phone Number">
+
+                    <div id="select">
+                        <div class="placeholderSelect smallSelect">
+                            <span>What is your interest?</span>
+                            <img class="select_arrow" src="img/arrow_down_select.svg" alt="">
+                        </div>
+                        <div class="placeholderSelect bigSelect">
+                            <span>What is your interest?</span>
+                            <img class="select_arrow" src="img/arrow_up_select.svg" alt="">
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="check2"><label for="check2">Brand Systems</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" id="check3"><label for="check3">Identity Systems</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" id="check4"><label for="check4">Digital Design</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" id="check5"><label for="check5">Narrative Development</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" id="check6"><label for="check6">Other</label>
+                        </div>
+
+
+                    </div>
+                    <textarea name="" id="textarea" onkeyup="checkParams()" cols="30" rows="10" placeholder="Your Message*" required></textarea>
+                    <div class="captcha"></div>
+                    <button id="submit" class="disabled">submit<div class="placeholderBtn roboto">Please Fill in the required fields</div></div></button>
+
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="conteiner">
+            <span class="roboto">© codescraper, 2021 </span>
+        </div>
+    </footer>
+
+    <div class="modal  fade burgerMenu" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="conteiner">
+                        <div class="navigation">
+                            <a href="#" class="bebas">menu</a>
+                            <a href="#" data-bs-dismiss="modal" aria-label="Close" class="burger closeBurger">
+                                <div></div>
+                                <div class="burgerLast"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="modalNav">
+                        <li>
+                            <a href="#">Who we are & How we work (presentation)</a>
+                        </li>
+                        <li>
+                            <a href="#">Design Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio Cases</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+    <!-- главное меню -->
+    <script>
+        $(window).scroll(function() {
+            let currentclass
+            $('section').each(function() {
+                if ($(this).offset().top < ($(window).scrollTop()) + 20) {
+                    currentclass = $(this).attr('id')
+                }
+            });
+
+            $('.navigation').addClass(currentclass);
+
+            if ($('.navigation').hasClass('blackColor')) {
+                $('.navigation').removeClass('whiteColor');
+                $('.navigation').addClass(currentclass);
+            } else if ($('.navigation').hasClass('whiteColor')) {
+                $('.navigation').removeClass('blackColor');
+                $('.navigation').addClass(currentclass);
+            }
+
+            if ($('.navigation').offset().top < $('header').height()) {
+                $('.navigation').removeClass('blackColor');
+                $('.navigation').addClass('whiteColor');
+            }
+
+        })
+    </script>
+
+    <!-- исчезновение элементов -->
+    <script>
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 10) {
+                $('.links a').css('font-size', '24px').css('line-height', '29px');
+                $('.links .prev img').attr('src', 'img/arrow_left_s.svg');
+                $('.links .next img').attr('src', 'img/arrow_right_b.svg');
+                $('.links ').css('padding-top', '87px');
+            } else {
+                $('.links a').css('font-size', '30px').css('line-height', '37px');
+                $('.links .prev img').attr('src', 'img/arrow_white_l.svg');
+                $('.links .next img').attr('src', 'img/arrow_white_r.svg');
+                $('.links ').css('padding-top', '120px');
+            }
+        });
+    </script>
+
+    <!-- картинка со скролом вниз -->
+    <script>
+        $(window).scroll(function() {
+            var topOffset = $(this).scrollTop();
+            if (topOffset >= 50) {
+                $('#mouseDown').css('opacity', '0').css('top', '100%');
+            } else {
+                $('#mouseDown').css('opacity', '1').css('top', '0');
+            }
+        });
+    </script>
+
+    <!-- вращение круга -->
+    <script>
+        $(document).ready(function() {
+            var windowHeight = $(window).height();
+
+            $(document).on('scroll', function() {
+                $('.animateCircle').each(function() {
+                    let self = $(this),
+                        height = self.offset().top + self.height();
+                    if ($(document).scrollTop() + windowHeight >= height) {
+                        $(this).css('transform', 'rotate(360deg)')
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- модальное окно -->
+    <script>
+        $('.burger').click(function() {
+            $('.mainNav').css('transform', 'translateY(-100%)');
+            $('.prev').css('transform', 'translateX(-200%)');
+            $('.next').css('transform', 'translateX(200%)');
+            $('#mouseDown').css('opacity', '0').css('transition', '.2s');
+            $('.circle').css('transform', 'scale(12)');
+            $('.modalNav').css('transform', 'translateY(0%)').css('transition', '0s');
+            $('.modalNav').css('animation', '.75s linear move_eye')
+
+        });
+        $('.closeBurger').click(function() {
+            $('.mainNav').css('transform', 'translateY(0)');
+            $('.prev').css('transform', 'translateX(0)');
+            $('.next').css('transform', 'translateX(0)');
+            $('#mouseDown').css('opacity', '1').css('transition', '2s');
+            $('.circle').css('transform', 'scale(1)');
+            $('.modalNav').css('transform', 'translateY(+200%)').css('transition', '.5s');
+        });
+    </script>
+
+    <!-- форма -->
+    <script>
+        function checkParams() {
+            let name = $('#name').val();
+            let email = $('#email').val();
+            let textarea = $('#textarea').val();
+
+            if (name.length != 0 && email.length != 0 && textarea.length != 0) {
+                $('#submit').removeClass('disabled');
+                $('.placeholderBtn').hide().css('transition', '0');
+            } else {
+                $('#submit').addClass('disabled');
+                $('.placeholderBtn').show().css('transition', '.3s');
+            }
+        }
+
+
+        $('.smallSelect').click(function() {
+            $('#select').css('height', '230px');
+            $(this).css('display', 'none');
+            $('.bigSelect').css('display', 'flex');
+            $('.check').css('opacity', '1').css('transition', '.5s');
+        })
+
+
+        $('.bigSelect').click(function() {
+            $('#select').css('height', '42px')
+            $(this).css('display', 'none');
+            $('.smallSelect').css('display', 'flex');
+            $('.check').css('opacity', '0').css('transition', '.3s');
+        })
+    </script>
+
+
+
+
+
+</body>
+
+</html>
